@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="styles.css">
+	<meta charset="UTF-8">
+	<title>Final Project</title>
+</head>
+
+<body>
+
+<h1>This is a hmtl5 + CSS website example</h1>
+<h2>This is the second largest heading</h2>
+<h6>This is the smallest heading</h6>
+
+<p>
+	<a href="anotherPage.html">This links to another page</a>
+</p>
+<p>
+	<a href="yetAnotherPage.html">This links to yet another page</a>
+</p>
+<p>
+	<a href="https://www.uwa.edu.au">This links to an external website</a>
+</p>
+<p>
+	<a href="https://en.wikipedia.org/wiki/Soap_bubble">This links to yet another website</a>
+</p>
+
+<p>
+	The following are <i><b>Elden Ring</b></i> images:
+</p>
+
+<p>
+	This one is hosted on <b>this</b> repo:
+</p>
+
+<img src="ring.jpg" alt="Elden ring">
+
+<p>
+	And this one is hosted on <i><b>Steam</b></i>:
+</p>
+
+<img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/ss_ae44317e3bd07b7690b4d62cc5d0d1df30367a91.1920x1080.jpg?t=1649774637" alt="Elden ring">
+
+<h3>This is an <i>unordered</i> <b>list</b>:</h3>
+<ul>
+  <li><i>First</i> item;</li>
+  <li><i>Second</i> item;</li>
+  <li><i>Last</i> item.</li>
+</ul>
+
+<h3>This is an <i>ordered</i> <b>list</b>:</h3>
+<ol>
+  <li><i>First</i> item;</li>
+  <li><i>Second</i> item;</li>
+  <li><i>Last</i> item.</li>
+</ol>
+
+<h3>This is a <b>table</b>:</h3>
+<table>
+  <tr>
+    <th>Header 1</th>
+    <th>Header 2</th>
+    <th>Header 3</th>
+  </tr>
+  <tr>
+    <td>r1c1</td>
+    <td>r1c2</td>
+    <td>r1c3</td>
+  </tr>
+  <tr>
+    <td>r2c1</td>
+    <td>r2c2</td>
+    <td>r2c3</td>
+  </tr>
+</table>
+
+<p style="color:red">This is <b>red</b> colored <i>paragraph</i>.</p>
+
+<p>The following is an example <b>code block</b>. This is my <i>FizzBuzz</i> solution from earlier in the semester.</p>
+
+<pre>
+  <code>
+&lt!DOCTYPE html&gt
+&lthtml&gt
+&lthead&gt
+&ltmeta charset="UTF-8"&gt
+&lttitle&gtFizz Buzz&lt/title&gt
+&ltscript&gt
+
+function fizzbuzz() 
+{
+	var display = document.getElementById('display');
+	var displayHTML = "";
+	for (i = 1; i &lt= 100; i++) 
+	{
+		
+		if (i % 3 == 0 && i % 5 == 0)
+		{
+			displayHTML += "&ltp&gtFizzBuzz&lt/p&gt";
+		}
+		else if (i % 3 == 0)
+		{
+			displayHTML += "&ltp&gtFizz&lt/p&gt";
+		}
+		else if (i % 5 == 0)
+		{
+			displayHTML += "&ltp&gtBuzz&lt/p&gt";
+		}
+		else
+		{
+			displayHTML += "&ltp&gt" + i + "&lt/p&gt";
+		}
+	}
+	display.innerHTML = displayHTML
+}
+
+&lt/script&gt
+
+&lt/head&gt
+
+&ltbody onload="fizzbuzz()"&gt
+&ltdiv id="display"&gt
+
+&lt/div&gt
+&lt/body&gt
+
+&lt/html&gt
+  </code>
+</pre>
+
+</body>
+
+</html>

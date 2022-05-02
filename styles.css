@@ -1,0 +1,93 @@
+body 
+{
+  background-color: black;
+}
+h1 
+{
+  color: black;
+  background-color: white;
+}
+h2
+{
+  color: black;
+  background-color: white;
+}
+h3
+{
+  color: black;
+  background-color: white;
+}
+h4
+{
+  color: black;
+  background-color: white;
+}
+h5
+{
+  color: black;
+  background-color: white;
+}
+h6
+{
+  color: black;
+  background-color: white;
+}
+p 
+{
+  color: white;
+}
+
+/* unvisited link */
+a:link 
+{
+  color: deepskyblue;
+}
+
+/* visited link */
+a:visited 
+{
+  color: firebrick;
+}
+
+/* mouse over link */
+a:hover 
+{
+  color: darkturquoise;
+}
+
+/* selected link */
+a:active 
+{
+  color: indianred;
+}
+
+ul.a 
+{
+  list-style-type: square;
+}
+
+ul
+{
+	background: white
+}
+
+ol
+{
+	background: white
+}
+
+pre code 
+{
+  font-family: monospace;
+  font-size: inherit;
+  color: white;
+  background: slategray;
+  border: 1px solid #999;
+  display: block;
+  padding: 20px;
+}
+
+table
+{
+	color: white;
+}
